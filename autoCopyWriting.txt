@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+using namespace std;
+string writing(string keyword, string startTtime, string endTime, int number, string message)
+{
+	string copywriting = "输入'" + keyword + "'即可参与抽奖\n" \
+		               + "开始时间:" + startTime + "\n" \
+		               + "结束时间:" + endTime + "\n" \
+		               + message;
+	return copywriting;
+}
+int main()
+{
+	cout << writing;
+}
